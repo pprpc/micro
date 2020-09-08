@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"xcthings.com/hjyz/cache"
+	"github.com/pprpc/util/cache"
 	"xcthings.com/micro/svc"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 )
 
 // ClientPool .

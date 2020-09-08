@@ -10,9 +10,9 @@ import (
 
 	//"github.com/coreos/etcd/clientv3"
 	"go.etcd.io/etcd/clientv3"
-	"xcthings.com/hjyz/cache"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/cache"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 )
 
 type WatcherCB func(action, key, value string)

@@ -8,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"xcthings.com/hjyz/logs"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
-	"xcthings.com/pprpc/pptcp"
-	"xcthings.com/pprpc/sess"
+	"github.com/pprpc/util/logs"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
+	"github.com/pprpc/core/pptcp"
+	"github.com/pprpc/core/sess"
 )
 
 // ClientConnInfo client info

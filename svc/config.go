@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 )
 
 // Config micro config get
